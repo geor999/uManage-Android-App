@@ -1,0 +1,69 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.172" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable-v24/welcomeshape2.xml" value="0.2185" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/Background1_background.xml" value="0.172" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/Background2_background.xml" value="0.172" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/Background3_background.xml" value="0.172" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/Background4_background.xml" value="0.3465" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/Background5_background.xml" value="0.3465" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/Background6_background.xml" value="0.3465" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/Background_background.xml" value="0.196" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/background.xml" value="0.284" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/constraint_shape.xml" value="0.2765" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.253" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/ic_baseline_photo_library_24.xml" value="0.3675" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.114" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/ic_baseline_sort_24.xml" value="0.1" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/ic_email.xml" value="0.3675" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.172" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/ic_lock.xml" value="0.172" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/ic_logo_background.xml" value="0.3675" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/ic_person.xml" value="0.172" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/welcomeshape.xml" value="0.196" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/drawable/welcomeshape2.xml" value="0.1755" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/layout/addproduct.xml" value="0.25" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/layout/addproduct_tab.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/layout/addworker_tab.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/layout/item.xml" value="0.38865546218487396" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/layout/list_and_buttons.xml" value="0.25" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/layout/login_tab.xml" value="0.25" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/layout/login_tab_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/layout/main_view_tab.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/layout/recycler_item_tab.xml" value="0.5" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/layout/register_tab.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/layout/register_tab_fragment.xml" value="0.3146067415730337" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/layout/updateproduct.xml" value="0.33" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/layout/updateproduct_tab.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/menu/menu.xml" value="0.33" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/menu/popup.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/mipmap-anydpi-v26/Background.xml" value="0.172" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/MarketList2/app/src/main/res/mipmap-anydpi-v26/Background6.xml" value="0.172" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/uManage/app/src/main/res/drawable/ic_baseline_analytics_24.xml" value="0.1735" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/uManage/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.1" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/uManage/app/src/main/res/drawable/ic_baseline_photo_library_24.xml" value="0.1" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/uManage/app/src/main/res/layout/addworker_tab.xml" value="0.25" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/uManage/app/src/main/res/layout/analytics_tab.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/uManage/app/src/main/res/layout/login_tab.xml" value="0.25" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/uManage/app/src/main/res/layout/main_tab.xml" value="0.25" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/uManage/app/src/main/res/layout/main_view_tab.xml" value="0.18696883852691218" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/uManage/app/src/main/res/layout/recycler_item_tab.xml" value="0.33" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/uManage/app/src/main/res/layout/register_tab.xml" value="0.25" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/uManage/app/src/main/res/layout/updateproduct_tab.xml" value="0.21" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/uManage/app/src/main/res/layout/updateworker_tab.xml" value="0.25" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/uManage/app/src/main/res/menu/menu.xml" value="0.33" />
+        <entry key="..\:/Users/koggie/AndroidStudioProjects/uManage/app/src/main/res/menu/popup.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

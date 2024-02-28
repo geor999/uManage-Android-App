@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_new_worker_menu_tab"
+        android:icon="@drawable/plus_icon"
+        android:title="@string/add_new_worker_menu_tab"
+        app:showAsAction="ifRoom" />
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/settings_menu_tab"
+        app:showAsAction="always"
+        android:icon="@drawable/settings_icon"
+        android:title="@string/settings_menu_tab">
+        <menu>
+            <item android:title="@string/sort_menu_tab"
+                android:id="@+id/sorting"
+                app:showAsAction="never">
+                <menu>
+                    <item
+                        android:title="@string/descending_by_salary_text_menu_tab"
+                        android:id="@+id/descending_menu_tab"
+                        app:showAsAction="never" />
+                    <item
+                        android:title="@string/ascending_by_salary_text_menu_tab"
+                        android:id="@+id/ascending_menu_tab"
+                        app:showAsAction="never" />
+                </menu>
+            </item>
+            <item android:title="@string/theme_menu_tab"
+                android:id="@+id/language"
+                app:showAsAction="never">
+                <menu>
+                    <item
+                        android:title="@string/dark_theme_text_menu_tab"
+                        android:id="@+id/dark_theme_menu_tab"
+                        app:showAsAction="never" />
+                    <item
+                        android:title="@string/light_theme_text_menu_tab"
+                        android:id="@+id/light_theme_menu_tab"
+                        app:showAsAction="never" />
+                </menu>
+            </item>
+
+
+        </menu>
+    </item>
+
+
+</menu>

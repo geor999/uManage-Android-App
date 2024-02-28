@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Welcome_login_register_tab">Καλωσήρθατε στο uManage</string>
+    <string name="Logo">Το εικονίδιο της uManage</string>
+    <string name="email_address_text_register_tab">Ηλεκτρονικό ταχυδρομείο</string>
+    <string name="name_text_add_tab">Όνομα</string>
+    <string name="register_button_text_register_tab">Εγγραφή</string>
+    <string name="login_button_text_login_tab">Είσοδος</string>
+    <string name="register_here_text_login_tab">Εγγράψου εδώ</string>
+    <string name="login_text_login_tab">Συνδέσου εδώ</string>
+    <string name="your_name">Εισήγαγε το όνομα σου εδώ!</string>
+    <string name="lock">Κλειδαριά</string>
+    <string name="password_text_login_register_tab">Κωδικός</string>
+    <string name="repeat_password_text_register_tab">Επανάληψη Κωδικού</string>
+    <string name="add_new_worker_menu_tab">Εισήγαγε νέο εργαζόμενο</string>
+    <string name="textforrecycler">Ονοματεπώνυμο Εργαζόμενου</string>
+    <string name="age_text_recycler_tab">Ηλικία</string>
+    <string name="salary_text_add_tab">Μισθός</string>
+    <string name="settings_menu_tab">Ρυθμίσεις</string>
+    <string name="workersphoto">Φωτογραφία Εργαζομένου</string>
+    <string name="color">Χρώμα</string>
+    <string name="sort_menu_tab">Ταξινόμηση κατά</string>
+    <string name="dark_theme_text_menu_tab">Σκούρο θέμα</string>
+    <string name="light_theme_text_menu_tab">Ανοιχτό θέμα</string>
+    <string name="age_text_add_tab">Ηλικία</string>
+    <string name="button_text_add_tab">Προσθήκη</string>
+    <string name="add_from_gallery_add_tab">Εισαγωγή από την συλλογή</string>
+    <string name="image_text_main_tab">Εικόνα</string>
+    <string name="button_text_update_tab">Αναβάθμιση</string>
+    <string name="descending_by_salary_text_menu_tab">Φθίνουσα τιμή μισθού</string>
+    <string name="language">Αλλαγή γλώσσας</string>
+    <string name="ascending_by_salary_text_menu_tab">Αύξουσα τιμή μισθού</string>
+    <string name="English">Αγγλικά</string>
+    <string name="Greek">Ελληνικά</string>
+    <string name="theme_menu_tab">Θέμα</string>
+    <string name="name_text_login_register_tab" >Όνομα</string>
+    <string name="update_text_popup_tab">Ενημέρωση</string>
+    <string name="remove_text_popup_tab">Διαγραφή</string>
+    <string name="age_text_main_tab">Ηλικία</string>
+    <string name="analytics_text_menu_tab">Στατιστικά</string>
+    <string name="total_workers_text_main_tab">Εργαζόμενοι</string>
+    <string name="brief_analytics_text_main_tab">Σύντομα Στατιστικά Στοιχεία</string>
+    <string name="salary_sum_brief_main_tab">Συνολικός μισθός</string>
+    <string name="avg_salary_brief_main_tab">ΜΟ μισθών</string>
+    <string name="avg_age_brief_main_tab">ΜΟ ηλικίας</string>
+    <string name="total_workers_brief_main_tab">Αριθμός εργαζομένων</string>
+</resources>

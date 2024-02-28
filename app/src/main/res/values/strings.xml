@@ -1,0 +1,54 @@
+<resources>
+    <string name="Welcome_login_register_tab">Welcome to uManage</string>
+    <string name="Logo">The logo of uManage</string>
+    <string name="email_address_text_register_tab">Email</string>
+    <string name="name_text_add_tab">Name</string>
+    <string name="register_button_text_register_tab">Register</string>
+    <string name="login_button_text_login_tab">Login</string>
+    <string name="register_here_text_login_tab">Register here!</string>
+    <string name="login_text_login_tab">Login Here!</string>
+    <string name="settings_menu_tab">Settings</string>
+    <string name="your_name">Add your name here!</string>
+    <string name="lock">Lock</string>
+    <string name="password_text_login_register_tab">Password</string>
+    <string name="repeat_password_text_register_tab">Repeat Password</string>
+    <string name="add_new_worker_menu_tab">Add a new worker</string>
+    <string name="textforrecycler">Worker Fullname</string>
+    <string name="age_text_recycler_tab">Age</string>
+    <string name="salary_text_add_tab">Salary</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="workersphoto">Worker\'s Photo</string>
+    <string name="color">Color</string>
+    <string name="sort_menu_tab">Sort by</string>
+    <string name="dark_theme_text_menu_tab">Dark theme</string>
+    <string name="light_theme_text_menu_tab">Bright theme</string>
+    <string name="age_text_add_tab">Age</string>
+    <string name="Add" translatable="false">ButtonADD</string>
+    <string name="button_text_add_tab">Add</string>
+    <string name="add_from_gallery_add_tab">Add from gallery</string>
+    <string name="eikona" translatable="false" />
+    <string name="image_text_main_tab">Image</string>
+    <string name="button_text_update_tab">Update</string>
+    <string name="descending_by_salary_text_menu_tab">Descending salary order</string>
+    <string name="language">Change language</string>
+    <string name="ascending_by_salary_text_menu_tab">Ascending salary order</string>
+    <string name="English">English</string>
+    <string name="Greek">Greek</string>
+    <string name="theme_menu_tab">Theme</string>
+    <string name="name_text_login_register_tab" >Username</string>
+    <string name="update_text_popup_tab">Update</string>
+    <string name="app_name" translatable="false">uManage</string>
+    <string name="remove_text_popup_tab">Remove</string>
+    <string name="age_text_main_tab">Age</string>
+    <string name="analytics_text_menu_tab">Analytics</string>
+    <string name="total_workers_text_main_tab">Total workers</string>
+    <string name="brief_analytics_text_main_tab">Brief Analytics</string>
+    <string name="avg_salary_brief_main_tab">Avg salary</string>
+    <string name="avg_age_brief_main_tab">Avg age</string>
+    <string name="total_workers_brief_main_tab">Total workers</string>
+    <string name="salary_sum_brief_main_tab">Total salary</string>
+    <string name="avg_salary_db_brief_main_tab" translatable="false">" "</string>
+    <string name="avg_age_db_brief_main_tab" translatable="false">" "</string>
+    <string name="total_workers_db_brief_main_tab" translatable="false">" "</string>
+    <string name="salary_sum_db_brief_main_tab" translatable="false">" "</string>
+</resources>

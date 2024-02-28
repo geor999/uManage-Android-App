@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintlayoutbutton"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/image_main_tab"
+            android:layout_width="86dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="24dp"
+            android:gravity="center_vertical"
+            android:text="@string/image_text_main_tab"
+            android:textColor="@color/hintcolor"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/name_main_tab"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/age_main_tab"
+            android:layout_width="86dp"
+            android:layout_height="0dp"
+            android:gravity="center_vertical"
+            android:text="@string/age_text_main_tab"
+            android:textColor="@color/hintcolor"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/salary_main_tab"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/salary_main_tab"
+            android:layout_width="86dp"
+            android:layout_height="0dp"
+            android:gravity="center_vertical"
+            android:text="@string/salary_text_add_tab"
+            android:textColor="@color/hintcolor"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/age_main_tab"
+            app:layout_constraintStart_toEndOf="@id/name_main_tab"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_main_tab"
+            android:layout_width="86dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:gravity="center_vertical"
+            android:text="@string/name_text_add_tab"
+            android:textColor="@color/hintcolor"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/salary_main_tab"
+            app:layout_constraintStart_toEndOf="@id/image_main_tab"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintlayoutbutton">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/alloconstraint"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nestedScrollView_constraint"
+                app:layout_constraintVertical_bias="1.0">
+
+                <TextView
+                    android:id="@+id/brief_analytics_main_tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/brief_analytics_text_main_tab"
+
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.485"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/avg_salary_brief_main_tab"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_vertical"
+
+                    android:maxLines="1"
+                    android:text="@string/avg_salary_brief_main_tab"
+
+                    app:layout_constraintBottom_toTopOf="@+id/avg_salary_db_brief_main_tab"
+                    app:layout_constraintEnd_toStartOf="@+id/avg_age_brief_main_tab"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/brief_analytics_main_tab" />
+
+                <TextView
+                    android:id="@+id/avg_age_brief_main_tab"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="24dp"
+                    android:gravity="center_vertical"
+
+                    android:maxLines="1"
+                    android:text="@string/avg_age_brief_main_tab"
+
+                    app:layout_constraintEnd_toStartOf="@+id/total_workers_brief_main_tab"
+                    app:layout_constraintStart_toEndOf="@+id/avg_salary_brief_main_tab"
+                    app:layout_constraintTop_toBottomOf="@+id/brief_analytics_main_tab" />
+
+                <TextView
+                    android:id="@+id/total_workers_brief_main_tab"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="24dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:text="@string/total_workers_brief_main_tab"
+
+                    app:layout_constraintEnd_toStartOf="@+id/salary_sum_brief_main_tab"
+                    app:layout_constraintStart_toEndOf="@+id/avg_age_brief_main_tab"
+                    app:layout_constraintTop_toBottomOf="@+id/brief_analytics_main_tab" />
+
+                <TextView
+                    android:id="@+id/salary_sum_brief_main_tab"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="24dp"
+                    android:gravity="center_vertical"
+
+                    android:maxLines="1"
+                    android:text="@string/salary_sum_brief_main_tab"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/total_workers_brief_main_tab"
+                    app:layout_constraintTop_toBottomOf="@+id/brief_analytics_main_tab" />
+
+                <TextView
+                    android:id="@+id/avg_salary_db_brief_main_tab"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="24dp"
+
+                    android:maxLength="10"
+                    android:maxLines="1"
+
+                    android:text="@string/avg_salary_db_brief_main_tab"
+                    app:layout_constraintEnd_toStartOf="@+id/avg_age_db_brief_main_tab"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/avg_salary_brief_main_tab"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/avg_age_db_brief_main_tab"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="24dp"
+
+                    android:maxLength="10"
+                    android:maxLines="1"
+
+                    android:text="@string/avg_age_db_brief_main_tab"
+
+                    app:layout_constraintEnd_toStartOf="@+id/total_workers_db_brief_main_tab"
+                    app:layout_constraintStart_toEndOf="@+id/avg_salary_db_brief_main_tab"
+                    app:layout_constraintTop_toBottomOf="@+id/avg_age_brief_main_tab"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/total_workers_db_brief_main_tab"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="24dp"
+
+                    android:layout_marginBottom="8dp"
+                    android:maxLength="10"
+                    android:maxLines="1"
+
+                    android:text="@string/total_workers_db_brief_main_tab"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/salary_sum_db_brief_main_tab"
+                    app:layout_constraintStart_toEndOf="@+id/avg_age_db_brief_main_tab"
+                    app:layout_constraintTop_toBottomOf="@+id/total_workers_brief_main_tab"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/salary_sum_db_brief_main_tab"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="24dp"
+
+                    android:maxLength="10"
+                    android:maxLines="1"
+
+                    android:text="@string/salary_sum_db_brief_main_tab"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/total_workers_db_brief_main_tab"
+                    app:layout_constraintTop_toBottomOf="@+id/salary_sum_brief_main_tab"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/nestedScrollView_constraint"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.core.widget.NestedScrollView
+                    android:id="@+id/nestedScrollView"
+                    android:layout_width="0dp"
+                    android:layout_height="425dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycler_view_main_tab"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                </androidx.core.widget.NestedScrollView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

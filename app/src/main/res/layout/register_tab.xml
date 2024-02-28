@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/BackgroundWelcome"
+    tools:context=".activity_classes.FirstActivity"
+    android:background="@color/BackgroundWelcome"
+    android:isScrollContainer="true"
+    >
+
+
+    <TextView
+        android:id="@+id/name_main_tab"
+        android:layout_width="207dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/welcomeshape"
+        android:gravity="center"
+        android:text="@string/Welcome_login_register_tab"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/hintcolor"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.80"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_main_tab">
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:autofillHints=""
+
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="4dp"
+            android:ems="10"
+
+            android:textColorHint="@color/hintcolor"
+            android:textColor="@color/hintcolor"
+            android:background="@drawable/welcomeshape2"
+            android:hint="@string/repeat_password_text_register_tab"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="52dp"
+            android:autofillHints=""
+
+            android:textColorHint="@color/hintcolor"
+            android:textColor="@color/hintcolor"
+            android:background="@drawable/welcomeshape2"
+            android:drawableStart="@drawable/ic_person"
+            android:drawablePadding="4dp"
+
+            android:ems="10"
+            android:hint="@string/name_text_login_register_tab"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:autofillHints=""
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="4dp"
+
+            android:textColorHint="@color/hintcolor"
+            android:textColor="@color/hintcolor"
+            android:background="@drawable/welcomeshape2"
+            android:ems="10"
+            android:hint="@string/password_text_login_register_tab"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/EmailAddressLogin"
+            tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/EmailAddressLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="52dp"
+            android:autofillHints=""
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="4dp"
+
+            android:textColorHint="@color/hintcolor"
+            android:textColor="@color/hintcolor"
+            android:background="@drawable/welcomeshape2"
+            android:ems="10"
+            android:hint="@string/email_address_text_register_tab"
+            android:inputType="textEmailAddress"
+
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+            tools:ignore="LabelFor" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="@color/BackgroundWelcome"
+            android:text="@string/register_button_text_register_tab"
+            android:textColor="@color/hintcolor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
